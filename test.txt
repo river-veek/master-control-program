@@ -1,0 +1,5 @@
+ls -a
+cat test.txt
+pwd
+ls -l
+echo 'hello'

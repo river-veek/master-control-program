@@ -1,0 +1,47 @@
+==4475== Memcheck, a memory error detector
+==4475== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4475== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4475== Command: ./part1 class.txt
+==4475== 
+total 136
+ 4 t.txt
+ 8 part3.c
+20 part3
+ 4 part2.c
+20 part2
+ 4 part1.c
+20 part1
+ 4 Makefile
+ 4 log1.txt
+ 4 iobound.c
+12 iobound
+ 4 err.txt
+ 4 cpubound.c
+12 cpubound
+ 4 class.txt
+ 4 ..
+ 4 .
+==4478== 
+==4478== HEAP SUMMARY:
+==4478==     in use at exit: 0 bytes in 0 blocks
+==4478==   total heap usage: 4 allocs, 4 frees, 4,792 bytes allocated
+==4478== 
+==4478== All heap blocks were freed -- no leaks are possible
+==4478== 
+==4478== For counts of detected and suppressed errors, rerun with: -v
+==4478== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Process: 4481 - Begining to write to file.
+Process: 4481 - Finished.
+Process: 4480 - Begining calculation.
+Process: 4480 - Finished.
+Process: 4479 - Begining to write to file.
+Process: 4479 - Finished.
+==4475== 
+==4475== HEAP SUMMARY:
+==4475==     in use at exit: 0 bytes in 0 blocks
+==4475==   total heap usage: 4 allocs, 4 frees, 4,792 bytes allocated
+==4475== 
+==4475== All heap blocks were freed -- no leaks are possible
+==4475== 
+==4475== For counts of detected and suppressed errors, rerun with: -v
+==4475== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
