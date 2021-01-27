@@ -8,5 +8,5 @@ Run the following to compile all C files:
 
 
 ## Additional Info
-Valgrind outputs can be found in the ```logs/``` directory.
-Program outputs can be found in the ```images/``` directory.
+- Valgrind outputs can be found in the ```logs/``` directory.
+- Program outputs can be found in the ```images/``` directory.
