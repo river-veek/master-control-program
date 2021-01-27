@@ -2,9 +2,12 @@
 A master control program (MCP) that launches a pool of sub-processes that execute commands given in an input file.
 
 
-## Compiling
-Run the following to compile all C files:
+## Commands
+- To compile all C files, enter:
 ```make```
+- To clear the root directory of executables, enter:
+```make clean```
+
 
 
 ## Additional Info
