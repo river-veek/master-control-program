@@ -9,7 +9,11 @@ A master control program (MCP) that launches a pool of sub-processes that execut
 ```make clean```
 
 
-
 ## Additional Info
 - Valgrind outputs can be found in the ```logs/``` directory.
 - Program outputs can be found in the ```images/``` directory.
+
+
+## Contact Info
+River Veek
+Email: riverv@uoregon.edu
