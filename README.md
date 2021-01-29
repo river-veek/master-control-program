@@ -9,7 +9,8 @@ A master control program (MCP) that launches a pool of sub-processes that execut
 ```make clean```
 - To run a program, enter:
 ```./exe_name test.txt``` where 'exe_name' is ```part1```/```part2```/```part3```/```part4```
-
+- To view the contents of ```test.txt```, enter:
+```cat test.txt```
 
 ## Additional Info
 - Valgrind outputs can be found in the ```logs/``` directory.
